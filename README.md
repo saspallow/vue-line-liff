@@ -20,7 +20,12 @@ yarn run build
 yarn run lint
 ```
 
-## LIFF
+### Run for development with Ngrok
+```
+ngrok http 8080
+```
+
+## LIFF setup
 
 ### Request Access Token
 ```
