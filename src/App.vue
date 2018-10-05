@@ -4,6 +4,14 @@
   </div>
 </template>
 
+<script>
+export default {
+  beforeCreate () {
+    this.$liff.init(function (data) {})
+  }
+}
+</script>
+
 <style>
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;

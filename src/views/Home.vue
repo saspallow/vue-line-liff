@@ -34,7 +34,7 @@
             <div class="field-body">
               <div class="field is-narrow">
                 <div class="control">
-                  <label class="label">{{ profile.userId || '-' }}</label>
+                  {{ profile.userId || '-' }}
                 </div>
               </div>
             </div>
@@ -42,12 +42,12 @@
 
           <div class="field is-horizontal">
             <div class="field-label is-normal">
-              <label class="label">Display Name</label>
+              <label class="label">Display Name:</label>
             </div>
             <div class="field-body">
               <div class="field is-narrow">
                 <div class="control">
-                  <label class="label">{{ profile.displayName || '-' }}</label>
+                  {{ profile.displayName || '-' }}
                 </div>
               </div>
             </div>
@@ -55,12 +55,12 @@
 
           <div class="field is-horizontal">
             <div class="field-label is-normal">
-              <label class="label">Picture URL</label>
+              <label class="label">Picture URL:</label>
             </div>
             <div class="field-body">
               <div class="field is-narrow">
                 <div class="control">
-                  <label class="label">{{ profile.pictureUrl || '-' }}</label>
+                  {{ profile.pictureUrl || '-' }}
                 </div>
               </div>
             </div>
@@ -68,12 +68,12 @@
 
           <div class="field is-horizontal">
             <div class="field-label is-normal">
-              <label class="label">Status Message</label>
+              <label class="label">Status Message:</label>
             </div>
             <div class="field-body">
               <div class="field is-narrow">
                 <div class="control">
-                  <label class="label">{{ profile.statusMessage || '-' }}</label>
+                  {{ profile.statusMessage || '-' }}
                 </div>
               </div>
             </div>
